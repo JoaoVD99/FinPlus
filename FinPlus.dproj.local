@@ -3,10 +3,16 @@
 	<Transactions>
     <Transaction>2022/04/27 20:49:12.000.251,=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/05/09 09:11:17.000.754,=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/09 09:18:17.424,=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/09 09:19:44.034,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formPrincipal.pas=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/05/09 09:19:44.034,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formPrincipal.fmx=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2022/05/09 09:20:23.162,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\FinPlus.dproj=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/05/09 09:18:17.000.424,=C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/09 09:19:44.000.034,C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formPrincipal.fmx</Transaction>
+    <Transaction>2022/05/09 09:19:44.000.034,C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formPrincipal.pas</Transaction>
+    <Transaction>2022/05/09 09:20:23.000.162,C:\Users\jvmga\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\FinPlus.dproj</Transaction>
+    <Transaction>2022/05/09 09:43:09.000.043,=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit1.pas</Transaction>
+    <Transaction>2022/05/09 09:44:05.000.139,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit1.pas=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formInicial.pas</Transaction>
+    <Transaction>2022/05/09 09:44:05.000.139,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit1.fmx=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formInicial.fmx</Transaction>
+    <Transaction>2022/05/09 09:46:04.000.618,=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit2.pas</Transaction>
+    <Transaction>2022/05/09 09:46:26.000.625,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit2.pas=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formBalanco.pas</Transaction>
+    <Transaction>2022/05/09 09:46:26.000.625,C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\Unit2.fmx=C:\Users\jvmga\Documents\Projetos\Fin+\ClienteFMXpc\compilados\formBalanco.fmx</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>

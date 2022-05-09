@@ -4,10 +4,21 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, formBalanco;
 
 type
-  TForm1 = class(TForm)
+  TfrmPrincipal = class(TForm)
+    Panel1: TPanel;
+    panelBotoes: TRectangle;
+    panelTopo: TRectangle;
+    Rectangle1: TRectangle;
+    btnInicial: TButton;
+    btnBalanco: TButton;
+    btnInvestimentos: TButton;
+    panelAcontece: TPanel;
+    lblNomes: TLabel;
+    procedure btnBalancoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -15,10 +26,19 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
 {$R *.fmx}
+
+procedure TfrmPrincipal.btnBalancoClick(Sender: TObject);
+begin
+  frmBalanco := TfrmBalanco.Create(self);
+  frmBalanco.Show;
+  panelAcontece.AddObject( frmBalanco.Panel1 );
+  btnBalanco.Enabled := False;
+  lblNomes.Text := 'Balanço'
+end;
 
 end.
