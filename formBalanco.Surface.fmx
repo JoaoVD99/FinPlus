@@ -1,0 +1,64 @@
+inherited frmBalanco_Surface: TfrmBalanco_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited Panel2: TPanel
+      Size.Height = 1920.000000000000000000
+      inherited V: TPanel
+        inherited Rectangle1: TRectangle
+          inherited Label1: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited panelDespesas: TPanel
+        inherited Rectangle2: TRectangle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited Panel3: TPanel
+      Size.Width = 655.000000000000000000
+      Size.Height = 1920.000000000000000000
+      inherited Panel4: TPanel
+        Size.Width = 655.000000000000000000
+        inherited Rectangle3: TRectangle
+          Size.Width = 655.000000000000000000
+          inherited Label11: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Label12: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Label13: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Label14: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Panel5: TPanel
+        Position.Y = 1862.000000000000000000
+        Size.Width = 655.000000000000000000
+      end
+      inherited Rectangle4: TRectangle
+        Size.Width = 655.000000000000000000
+        Size.Height = 1829.000000000000000000
+      end
+      inherited Layout1: TLayout
+        Size.Width = 655.000000000000000000
+        Size.Height = 1829.000000000000000000
+        inherited listBalanco: TListView
+          Size.Width = 655.000000000000000000
+          Size.Height = 1829.000000000000000000
+        end
+      end
+    end
+  end
+end

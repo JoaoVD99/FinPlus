@@ -1,0 +1,37 @@
+inherited frmBalanco_Surface: TfrmBalanco_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited RREntrada: TRoundRect
+      inherited Label3: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RRSaida: TRoundRect
+      inherited Label4: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle1: TRectangle
+      inherited Layout3: TLayout
+        inherited Label8: TLabel
+          Position.Y = 24.000000000000000000
+        end
+        inherited Label9: TLabel
+          Position.Y = 16.000000000000000000
+        end
+      end
+      inherited listLancamento: TListView
+        Position.Y = 57.000000000000000000
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+      end
+    end
+  end
+end

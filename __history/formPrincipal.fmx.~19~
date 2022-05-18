@@ -1,0 +1,93 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'FinPlus'
+  ClientHeight = 539
+  ClientWidth = 1221
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 1076.000000000000000000
+    Size.Height = 539.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object panelTopo: TRectangle
+      Align = Top
+      Fill.Color = claDimgray
+      Size.Width = 1076.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      object lblNomes: TLabel
+        Align = Center
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 1076.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 30.000000000000000000
+        Text = '  P'#225'gina Inicial'
+        TabOrder = 0
+      end
+    end
+    object panelAcontece: TPanel
+      Align = Client
+      Size.Width = 1076.000000000000000000
+      Size.Height = 466.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object cmbPeriodo: TComboBox
+      Items.Strings = (
+        'M'#234's Atual')
+      Position.X = 208.000000000000000000
+      Position.Y = 29.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+    end
+  end
+  object panelBotoes: TRectangle
+    Align = Left
+    Fill.Color = claDarkgray
+    Size.Width = 145.000000000000000000
+    Size.Height = 539.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = claAqua
+    Size.Width = 145.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnInicial: TButton
+    Position.X = 7.000000000000000000
+    Position.Y = 75.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 94.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'INICIAL'
+  end
+  object btnBalanco: TButton
+    Position.X = 7.000000000000000000
+    Position.Y = 171.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 94.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'BALAN'#199'O'
+    OnClick = btnBalancoClick
+  end
+  object btnInvestimentos: TButton
+    Position.X = 7.000000000000000000
+    Position.Y = 267.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 94.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'INVESTIMENTOS'
+  end
+end

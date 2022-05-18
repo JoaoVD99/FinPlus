@@ -1,0 +1,19 @@
+inherited frmBalanco_Surface: TfrmBalanco_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited RREntradas: TRoundRect
+      inherited Label3: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RRSaidas: TRoundRect
+      inherited Label4: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end
