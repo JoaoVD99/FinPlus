@@ -14,11 +14,8 @@ type
     Panel1: TPanel;
     Panel2: TPanel;
     V: TPanel;
-    panelDespesas: TPanel;
     Rectangle1: TRectangle;
     Label1: TLabel;
-    Rectangle2: TRectangle;
-    Label2: TLabel;
     edtGanhoDeesc: TEdit;
     Label3: TLabel;
     Label4: TLabel;
@@ -28,16 +25,6 @@ type
     edtGanhoData: TDateEdit;
     Label6: TLabel;
     btnAdicionaGanho: TButton;
-    edtDespesaDesc: TEdit;
-    Label7: TLabel;
-    Label8: TLabel;
-    edtDespesaValor: TEdit;
-    Label9: TLabel;
-    edtDespesaLocal: TEdit;
-    edtDespesaData: TDateEdit;
-    Label10: TLabel;
-    Button1: TButton;
-    cbObrigatorio: TCheckBox;
     Panel3: TPanel;
     Panel4: TPanel;
     Rectangle3: TRectangle;
@@ -46,15 +33,20 @@ type
     Label13: TLabel;
     Label14: TLabel;
     Panel5: TPanel;
-    listBalanco: TListView;
     Label15: TLabel;
     Label16: TLabel;
     Label17: TLabel;
     Label18: TLabel;
     Label19: TLabel;
     Label20: TLabel;
+    Rectangle4: TRectangle;
+    Layout1: TLayout;
+    listBalanco: TListView;
+    btnAdicionaDespesa: TButton;
     procedure FormShow(Sender: TObject);
   private
+    procedure addLancamento(id_lancamento, descricao, data: String;
+      valor: double);
   public
     { Public declarations }
   end;
@@ -69,12 +61,15 @@ implementation
 
   procedure TfrmBalanco.FormShow(Sender: TObject);
   begin
-    //
+    addLancamento( '01', 'Compra de passagem', '15/04', -45 );
   end;
 
-  procedure TfrmBalanco.addLancamento( id_lancamento, descricao, categoria, data : String; valor: double );
+  procedure TfrmBalanco.addLancamento( id_lancamento, descricao, data : String; valor: double );
   begin
-
+    with listBalanco.Items.Add do
+      begin
+        Height := 80;
+      end;
   end;
 
 end.

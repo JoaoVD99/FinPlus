@@ -14,6 +14,13 @@ inherited frmBalanco_Surface: TfrmBalanco_Surface
           end
         end
       end
+      inherited panelDespesas: TPanel
+        inherited Rectangle2: TRectangle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
     end
     inherited Panel3: TPanel
       Size.Width = 655.000000000000000000

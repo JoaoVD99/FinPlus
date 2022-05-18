@@ -380,10 +380,10 @@ object frmBalanco: TfrmBalanco
         Size.Width = 781.000000000000000000
         Size.Height = 479.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 4
-        object ListView1: TListView
-          ItemAppearanceClassName = 'TListItemAppearance'
-          ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        TabOrder = 3
+        object listBalanco: TListView
+          ItemAppearanceClassName = 'TDynamicAppearance'
+          ItemEditAppearanceClassName = 'TDynamicAppearance'
           HeaderAppearanceClassName = 'TListHeaderObjects'
           FooterAppearanceClassName = 'TListHeaderObjects'
           Align = Client
@@ -391,6 +391,43 @@ object frmBalanco: TfrmBalanco
           Size.Height = 479.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
+          ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'txtDescricao'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.TextAlign = Leading
+              Appearance.Width = 255.000000000000000000
+              Appearance.Height = 196.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'txtValor'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.TextAlign = Leading
+              Appearance.Width = 185.000000000000000000
+              Appearance.Height = 44.000000000000000000
+              Appearance.PlaceOffset.X = 254.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'txtData'
+              AppearanceClassName = 'TTextObjectAppearance'
+              Appearance.TextAlign = Leading
+              Appearance.Width = 177.000000000000000000
+              Appearance.Height = 44.000000000000000000
+              Appearance.PlaceOffset.X = 438.000000000000000000
+            end
+            item
+              AppearanceObjectName = 'Accessory5'
+              AppearanceClassName = 'TAccessoryObjectAppearance'
+              Appearance.AccessoryType = Checkmark
+              Appearance.Width = 129.000000000000000000
+              Appearance.Height = -84.000000000000000000
+              Appearance.PlaceOffset.X = 614.000000000000000000
+            end>
+          ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+            item
+              AppearanceObjectName = 'Text1'
+              AppearanceClassName = 'TTextObjectAppearance'
+            end>
         end
       end
     end
